@@ -14,3 +14,52 @@ pre {
   height: 0%;
   padding: 10px;
 }
+
+.flex {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+  order: 1;
+}
+
+table {
+  width: 100%;
+  color: white;
+}
+
+th {
+  color: white;
+  padding-bottom: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+td {
+  height: 50px;
+  background-color: slategrey;
+}
+
+tr {
+  border-left: 2px solid #34b9db;
+  border-right: 2px solid #34b9db;
+}
+
+table:last-child {
+  border-bottom: 2px solid #34b9db;
+}
+
+.table-head {
+  height: 60px;
+  background-color: #53DBA8;
+  border: 2px solid #34b9db;
+  font-size: 20px;
+}
+
+
+table {
+  border-spacing:0; /* Removes the cell spacing via CSS */
+  border-collapse: collapse;  /* Optional - if you don't want to have double border where cells touch */
+}

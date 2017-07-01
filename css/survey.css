@@ -14,11 +14,81 @@ form {
 .container{
   text-align: center;
 }
-.newsletter{
-  text-align: right;
 
+
+.survey {
+  text-align: left;
+  margin: auto;
 }
 
+.card {
+  padding: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 12px;
+  margin-top: 5px;
+  color: #00cf80
+}
+
+label.radio {
+  display: inline-block;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+select {
+  margin-bottom: 10px;
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="email"] {
+  width: 15vw;
+  min-width: 180px;
+}
+
+input[type="text"],
+input[type="email"] {
+  height: 4vh;
+}
+
+textarea {
+  height: 8vh;
+}
+
+.buttonWrap {
+  text-align: center;
+  margin: auto;
+}
+
+button {
+  margin-top: 30px;
+  margin: 30px auto 0;
+  height: 40px;
+  width: 10vw;
+  min-width: 120px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+
+form:first-child {
+  margin-top: 20px;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  color: #34b9db;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
 
 /* Styles for larger screens */
 @media screen and (min-width: 840px) {
