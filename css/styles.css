@@ -100,16 +100,19 @@ header {
 
 header .name{
   font-weight: bold;
-  margin-top: 1em;
-  font-size: 3em;
-  color: #34b9db;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 5em;
+  color: #4c4c4c;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .tagline {
   font-weight: 600;
-  padding: 20px;
   text-transform: uppercase;
-  color: #00cf80;
+  font-size: 30px;
+  color: teal;
+  font-family: 'Indie Flower', cursive;
 }
 
 .card {
@@ -207,6 +210,17 @@ a.social:hover {
     min-height: 470px;
   }
 
+  header .name {
+    margin-top: 60px;
+    font-weight: bold;
+  }
+
+  .tagline {
+    font-size: 32px;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+
   .nav {
     max-width: 1200px;
     padding: 0 30px;
@@ -242,4 +256,5 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
+
 }

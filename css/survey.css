@@ -11,6 +11,10 @@ form {
   display: inline-block;
 }
 
+.card img {
+  min-width: 200px;
+}
+
 .container{
   text-align: center;
 }
@@ -88,6 +92,19 @@ legend {
   color: #34b9db;
   font-size: 26px;
   margin-bottom: 10px;
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid teal;
+  padding-left: 5px;
+  font-size: 20px;
+  background-color: #d1d8d8;
+  color: teal;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 /* Styles for larger screens */
